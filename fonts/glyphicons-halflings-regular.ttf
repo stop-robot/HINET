@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>403 Forbidden - HiNet 網頁郵件服務</title>
+<base href="https://sg1000.webmail.hinet.net/mailService/zh/images/">
+<link
+	href="/mailService/mail/../css/wm-bootstrap-clean-desktop-only.css?150330"
+	rel="stylesheet">
+<link href="/mailService/mail/../css/jquery-ui-1.10.3.bs3.css"
+	rel="stylesheet">
+<link href="/mailService/mail/../css/wm-global-desktop.css?160106"
+	rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="/mailService/mail/../js/ie8.js"></script>
+<![endif]-->
+<script src="/mailService/mail/../js/jquery-1.11.0.min.js"
+	type="text/javascript"></script>
+<script src="/mailService/mail/../js/jquery-ui.min.js"
+	type="text/javascript"></script>
+<script src="/mailService/mail/../js/bootstrap.min.js"
+	type="text/javascript"></script>
+</head>
+<body class="no-menu no-right statement">
+	<div id="top-banner" class="top-banner">
+		<div class="toplinks">
+			<div class="quick">
+				<a href="http://www.hinet.net/" target="_blank">HiNet首頁</a>
+			</div>
+			<div class="links">
+				<a href="http://hiair.hinet.net/" target="_blank">簡訊</a>｜<a
+					href="https://lib.webmail.hinet.net/statement/notify.htm"
+					target="_blank">系統公告</a>
+			</div>
+		</div>
+		<div class="header">
+			<div class="logo">
+				<a href="http://www.hinet.net/" target="_blank"></a>
+			</div>
+		</div>
+	</div>
+	<div class="wm-navbar-wrapper">
+		<nav id="wm-navbar"
+			class="navbar navbar-static-top navbar-default wm-navbar"
+			role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="https://webmail.hinet.net/">WebMail</a>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<!-- main container -->
+	<div id="main-container" class="main-container">
+		<!-- main context -->
+		<div class="error-splash-area">
+			<div class="error-title">Ooops! 禁止存取!</div>
+			<div class="error-body text-center">
+				<p>噢喔！存取異常！</p>
+				<p>很抱歉，您沒有檢視此網頁的權利！</p>
+				<p>
+					<br>
+				</p>
+				<div>
+					<a href="javascript:history.back()" class="btn btn-set-primary">回上一頁</a>
+				</div>
+			</div>
+		</div>
+		<div id="big_ad" style="margin: auto;width: 728px"><hinetwork format="728x90" channel="2017007" slot="201702000038" ><script type="text/javascript" src="//ssp.hinet.net/api/app.js" defer></script></hinetwork></div>
+		<div class="footer">
+			<div class="company">
+				<div class="browser">
+					<a href="#" class="browser-open">瀏覽器相容說明</a>
+					<div class="browser-info">
+						<a class="browser-close" href="#">瀏覽器相容說明</a>
+						<h6 class="browser-title">
+							<span>瀏覽器相容性說明</span>
+						</h6>
+						<ul class="browser-version">
+							<li class="ie">支援IE 8以上版本，建議使用<a target="_blank"
+								href="http://windows.microsoft.com/zh-tw/internet-explorer/download-ie">最新版本</a>
+							</li>
+							<li class="chrome">支援Chrome 13以上版本，建議使用<a target="_blank"
+								href="https://www.google.com/chrome/">最新版本</a>
+							</li>
+							<li class="firefox">支援Firefox 4以上版本，建議使用<a target="_blank"
+								href="http://moztw.org/">最新版本</a>
+							</li>
+							<li class="safari">支援Safari 5.1以上版本，建議使用<a target="_blank"
+								href="http://www.apple.com/tw/safari/">最新版本</a>
+							</li>
+						</ul>
+						<span class="browser-icon">&nbsp;</span>
+					</div>
+				</div>
+				<div class="website">
+					<a href="http://www.emome.net/" target="_blank">emome</a> ｜ <a
+						href="http://mod.cht.com.tw/" target="_blank">MOD</a> ｜ <a
+						href="http://www.clicktaiwan.com.tw/taiwan/index.jsp"
+						target="_blank">點。台灣</a>
+				</div>
+				<p>
+					<a href="http://www.hinet.net/copyright.html" target="_blank">著作權保護</a>
+					∣ <a href="https://lib.webmail.hinet.net/statement/privacy.htm"
+						target="_blank">隱私權保護</a> ∣ <a
+						href="http://www.cht.com.tw/csr/chtf.html" target="_blank">企業社會責任</a>
+					∣ <a href="http://www.hinet.net/footer_kids.htm" target="_blank">兒童網路安全</a>
+					∣ <a href="http://blog.xuite.net/hinet_marketing/blog"
+						target="_blank">刊登廣告</a> ∣ <a
+						href="http://www.cht.com.tw/portal/Wanted" target="_blank">人才招募</a>
+					∣ <a href="http://www.hinet.net/footer_sitemap.htm" target="_blank">網站地圖</a>
+					∣ <a href="http://service.hinet.net/2004/ncsc/index.htm"
+						target="_blank">聯絡我們</a>
+				</p>
+				<p>
+					<a href="http://www.hinet.net/classify.html" target="_blank">本網站已依台灣網站內容分級規定處理</a>
+					24小時免費服務電話 : 0800-080-412
+				</p>
+				<p>中華電信數據通信分公司版權所有 © 2013 HiNet Internet Service by Chunghwa
+					Telecom All Rights Reserved.</p>
+			</div>
+			<div class="m_footer">
+				<div class="mode">
+					<a href="http://www.hinet.net/pu/notify.htm" target="_blank"><img
+						src="../../images/hinet/btn_news.jpg" width="84" height="23"
+						alt="" /></a>
+				</div>
+				<h2>24小時免費服務電話 : 0800-080-412</h2>
+				<p>中華電信數據通信分公司版權所有 © 2013 HiNet Internet Service by Chunghwa
+					Telecom All Rights Reserved.</p>
+			</div>
+			<script type="text/javascript">
+				$(function() {
+					$("a.browser-open").click(function() {
+						$(".browser-info").toggle();
+						$(this).blur();
+						return false;
+					});
+					$("a.browser-close").click(function() {
+						$(".browser-info").hide();
+						$(this).blur();
+						return false;
+					});
+				});
+			</script>
+		</div>
+	</div>
+</body>
+</html>
